@@ -8,9 +8,8 @@ body{
 #wrapper{
 
 	width:980px;
-
 	margin:0 auto;
-	margin-top:150px;
+	margin-top:80px;
 	overflow:hidden;
 }
 .right{
@@ -47,7 +46,7 @@ header{
 .search{
 
 	width:300px;
-	height:100px;
+
 }
 #result{
 
@@ -75,4 +74,10 @@ nav li{
 .title{
 
 	margin-top:45px;
+}
+#searchSection{
+
+	width:600pc;
+	margin-left:200px;
+
 }
