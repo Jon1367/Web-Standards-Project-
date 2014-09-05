@@ -3,27 +3,40 @@ body{
 
 	margin:0;
 	padding:0;
-	background-color:black;
 
 }
 #wrapper{
 
-	width:900px;
-	background-color:white;
+	width:980px;
+
 	margin:0 auto;
 	margin-top:150px;
+	overflow:hidden;
+}
+.right{
+
+	float:right;
+}
+.left{
+
+	float:left;
+}
+.clear{
+
+	clear:both;
 }
 /*==== Header Section ====*/
 header{
 
 	width:100%;
-	background-color:green;
+	background-color:#C91F23;
 	overflow:hidden;
+	box-shadow:2px 5px 2px #888;
 }
 .home{
 
 	font-size:18px;
-	font-weight:thin;
+	font-weight:100;
 	color:white;
 	margin-top:0px;
 	margin-bottom:0px;
@@ -40,10 +53,26 @@ header{
 
 	list-style:none;
 	margin-left:20px;
+	margin-top:0pc;
+	margin-bottom:0px;
 	float:left;
 }
 nav li{
 
 	display:inline-block;
 	float:right;
+}
+/*==== Main Search Section ====*/
+#Feature{
+
+	margin-left:150px;
+}
+.logo{
+	
+	margin-left:30px;
+
+}
+.title{
+
+	margin-top:30px;
 }
