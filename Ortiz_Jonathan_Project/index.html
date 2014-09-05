@@ -4,57 +4,66 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Games Search</title>
 </head>
+
 <body>
+	<header>
 
-<nav>
-	<ul>
-		<li><a href="form.html">Login/Sign-up</a></li>
-		<li><a href="">Search Result</a></li>
-		<li><a href="result.html">Result Detail page</a></li>
-		<li><a href="">Favorits</a></li>
-	</ul>
-</nav>
+		<h1 class="home">Home</h1>
 
-<h1>Welcome to Search Games.com</h1>
+		
+		<ul id="result">
+			<li><a href="result.html">Result Detail page</a></li>
+		</ul>
 
-<article>
+		<nav>
+			<ul>
+				<li><a href="form.html">Login</a></li>
+				<li><a href="form.html">SignUp</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<div id="wrapper">
+
+<!-- <article>
 	On this site we will make it easy for you to find information on a certein videogame. Also let you konw whats popular in the videogame industry and what games are apporinate for certain age.
-</article>
+</article> -->
 
 
 <form>
 
-<div id="cta">
+<!-- <div id="cta">
 	
 	<img src="images/gamer.png" />
 
-</div>
+</div> -->
 
 
-<select name="genre">
-<option value="genre">genre</option>
-	<option value="Action">Action</option>
-	<option value="RPG">RPG</option>
-	<option value="Shooter">Shooter</option>
-	<option value="Puzzle">Puzzle</option>
-</select>
-<select name="age">
-	<option value="age">Age</option>
-	<option value="Mature">Mature</option>
-	<option value="Teen">Teen</option>
-	<option value="Eeveryone">Everyone</option>
-</select>
-	<label> Search </label>
-	<input type="text" 
-		name="search" 
-		maxlength="100" 
-		placeholder="search"/>
-	<input name="search" 
-		type="submit" 
-		value="search"/>
-</form>
-<p> Hellp Section
-</p>
+	<select>
+		<option value="Action">Action</option>
+		<option value="RPG">RPG</option>
+		<option value="Shooter">Shooter</option>
+		<option value="Puzzle">Puzzle</option>
+	</select>
 
+	<select>
+		<option value="age">Age</option>
+		<option value="Mature">Mature</option>
+		<option value="Teen">Teen</option>
+		<option value="Eeveryone">Everyone</option>
+	</select>
+
+		<label> Search </label>
+		<input type="text" 
+			class="search" 
+			name="search" 
+			maxlength="100" 
+			placeholder="search"/>
+		<input name="search" 
+			type="submit" 
+			value="search"/>
+	</form>
+
+		</div>      <!-- End of Wrapper-->
 </body>
 </html>
