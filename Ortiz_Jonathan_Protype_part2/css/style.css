@@ -91,7 +91,7 @@ nav li{
 #wrappertwo{
 
 	width:600px;
-	background-color:green;
+	
 	margin:0 auto;
 }
 #Sign{
@@ -100,17 +100,45 @@ nav li{
 	font-size:60px;
 	margin-left:160px;
 	letter-spacing:5px;
+	color:#C91F23;
 
 }
 #info{
 
 	margin:0 auto;
+	font-family: 'Raleway', sans-serif;
+	color:white;
 }
 #topSection{
 
 	width:400px;
+	background-color:#2E24C4;
+	margin: 0 auto;
+	padding:15px;
+	border:2px solid #888;
+	border-radius:10px;
+	margin-bottom:10px;
+
+}
+#heading{
+
+	color:white;
+	margin-left:150px;
+	font-family: 'Cinzel', serif;
+
+
+}
+#benefits{
+
+	color:white;
+	list-style:none;
+	font-family: 'Raleway', sans-serif;
+}
+#register{
+
+
+	width:550px;
 	background-color:blue;
 	margin: 0 auto;
-	padding:5px;
-
+	padding:15px;
 }
