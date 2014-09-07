@@ -4,6 +4,7 @@ body{
 	margin:0;
 	padding:0;
 
+
 }
 #wrapper{
 
@@ -84,5 +85,32 @@ nav li{
 	width:600pc;
 	margin-left:200px;
 	float:left;
+
+}
+/*==== Form Section ====*/
+#wrappertwo{
+
+	width:600px;
+	background-color:green;
+	margin:0 auto;
+}
+#Sign{
+
+	font-family: 'Cinzel', serif;
+	font-size:60px;
+	margin-left:160px;
+	letter-spacing:5px;
+
+}
+#info{
+
+	margin:0 auto;
+}
+#topSection{
+
+	width:400px;
+	background-color:blue;
+	margin: 0 auto;
+	padding:5px;
 
 }

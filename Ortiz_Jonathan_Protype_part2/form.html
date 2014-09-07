@@ -8,7 +8,7 @@
 <body>
 
 <header>
-	<nav>
+	<nav class="left">
 		<ul>
 			<li><a href="form.html">Login/Sign-up</a></li>
 			<li><a href="">Search Result</a></li>
@@ -16,58 +16,64 @@
 			<li><a href="index.html">Home</a></li>
 		</ul>
 	</nav>
+
+	<div class="right">
+		<label>username
+		<input type="text" name="login" placeholder="User name"/>
+		</label>
+
+		<label>Password
+		<input type="password" name="login" placeholder="password"/>
+		</label>
+		<input type="submit" name="login" value="login"/>
+	</div>
 </header>
 
-<h2>Login</h2>
 
-<label>username
-<input type="text" name="login" placeholder="User name"/>
-</label>
+<div id="wrappertwo">
 
-<label>Password
-<input type="password" name="login" placeholder="password"/>
-</label>
-<input type="submit" name="login" value="login"/>
+	<h2 id="Sign">Sign-up</h2>
 
-<h1>Sign-up For the greates Search Engine for Gamers</h1>
+	<div id="topSection"> 
 
-<p> With this member ship you will be able to have more advance serach option. Also gain addtional feature that will allow the user to save and bookmark games. So they can research or buy/rent the game.</p>
-<ul>
-	<li>Benefits</li>
-	<li>one</li>
-	<li>two</li>
-	<li>three</li>
-</ul>
+		<p id="info"> With this member ship you will be able to have more advance searches option. Also gain addtional feature that will allow the user to save and bookmark games. So they can research or buy/rent the game.</p>
+		<ul>
+			<li>Benefits</li>
+			<li>one</li>
+			<li>two</li>
+			<li>three</li>
+		</ul>
 
-	<img src="images/little.png" />
-<form>
+		</div>
+	<form>
 
-	<label>User Name
-	<input type="text">
-	</label>
+		<label>User Name
+		<input type="text">
+		</label>
 
-	<label>Email
-	<input type="text">
-	</label>
+		<label>Email
+		<input type="text">
+		</label>
 
-	<label>Password
-	<input type="text">
-	</label>
+		<label>Password
+		<input type="text">
+		</label>
 
-	<label>Confirm
-	<input type="text">
-	</label>
+		<label>Confirm
+		<input type="text">
+		</label>
 
-	<label>Male
-	<input type="radio">
-	</label>
+		<label>Male
+		<input type="radio">
+		</label>
 
-	<label>Female
-	<input type="radio">
-	</label>
+		<label>Female
+		<input type="radio">
+		</label>
 
-	<input type="submit" value="SignUp">
-</form>
+		<input type="submit" value="SignUp">
+	</form>
+</div>
 
 </body>
 </html>
