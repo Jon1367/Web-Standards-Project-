@@ -1,0 +1,88 @@
+/*====Style Sheet ====*/
+body{
+
+	margin:0;
+	padding:0;
+
+}
+#wrapper{
+
+	width:980px;
+	margin:0 auto;
+	margin-top:80px;
+	overflow:hidden;
+}
+.right{
+
+	float:right;
+}
+.left{
+
+	float:left;
+}
+.clear{
+
+	clear:both;
+}
+/*==== Header Section ====*/
+header{
+
+	width:100%;
+	background-color:#C91F23;
+	overflow:hidden;
+	box-shadow:2px 2px 0px 2px #888;
+}
+.home{
+
+	font-size:18px;
+	font-weight:100;
+	color:white;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:8px;
+	padding:10px;
+	float:left;
+}
+.search{
+
+	width:300px;
+
+}
+#result{
+
+	list-style:none;
+	margin-left:20px;
+	margin-top:0pc;
+	margin-bottom:0px;
+	float:left;
+}
+nav li{
+
+	display:inline-block;
+	float:right;
+}
+/*==== Main Search Section ====*/
+#Feature{
+
+	margin-left:150px;
+}
+.logo{
+	
+	margin-left:30px;
+
+}
+#title{
+
+	font-size:60px;
+	font-family: 'Cinzel', serif;
+	color:#C91F23;
+	float:left;
+	margin-top:60px;
+}
+#searchSection{
+
+	width:600pc;
+	margin-left:200px;
+	float:left;
+
+}
