@@ -171,7 +171,7 @@ legend{
 /*==== Results Page ====*/
 #wrapperThree{
 	
-	width:960px;
+	width:100%;
 	margin-top:20px;
 	background-color:green;
   
@@ -179,12 +179,12 @@ legend{
 aside{
 
 	width:400px;
-	background-color:red;
+	background-color:#FAFABE;
 	float:left;
 }
 #Results{
 
-	width:400px;
-	background-color:blue;
+	width:800px;
+	background-color:#F0DC96;
 	float:left;
 }
