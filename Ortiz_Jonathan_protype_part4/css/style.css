@@ -1,0 +1,190 @@
+/*====Style Sheet ====*/
+/*
+
+	lightest : #FAFABE
+	light brown : #F0DC96
+	dark brown: #E6BE6E
+	light blue:#A0D2BE
+	Dark blue: #778691
+	Red:      #C91F23
+
+*/
+body{
+
+	margin:0;
+	padding:0;
+
+}
+#wrapper{
+
+	width:980px;
+	margin:0 auto;
+	margin-top:80px;
+	overflow:hidden;
+
+}
+.right{
+
+	float:right;
+}
+.left{
+
+	float:left;
+}
+.clear{
+
+	clear:both;
+}
+/*==== Header Section ====*/
+header{
+
+	width:100%;
+	background-color:#C91F23;
+	overflow:hidden;
+	box-shadow:2px 2px 0px 2px #888;
+}
+.home{
+
+	font-size:18px;
+	font-weight:100;
+	color:white;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:8px;
+	padding:10px;
+	float:left;
+}
+.search{
+
+	width:300px;
+
+}
+#result{
+
+	list-style:none;
+	margin-left:20px;
+	margin-top:0pc;
+	margin-bottom:0px;
+	float:left;
+}
+nav li{
+
+	display:inline-block;
+	float:right;
+}
+/*==== Main Search Page ====*/
+#Feature{
+
+	margin-left:150px;
+}
+.logo{
+	
+	margin-left:30px;
+
+}
+#title{
+
+	font-size:60px;
+	font-family: 'Cinzel', serif;
+	color:#C91F23;
+	float:left;
+	margin-top:60px;
+}
+#searchSection{
+
+	width:600pc;
+	margin-left:200px;
+	float:left;
+
+}
+/*==== Form Page ====*/
+#wrappertwo{
+
+	width:960px;
+	margin:0 auto;
+	margin-top:20px;
+	
+}
+#formHeader{
+
+	width:100%;
+	background-color:#FAFABE;
+}
+#Sign{
+
+	font-family: 'Cinzel', serif;
+	font-size:30px;
+	margin-left:70px;
+	margin-top:0px;
+	letter-spacing:5px;
+	color:#C91F23;
+
+}
+#info{
+
+	margin:0 auto;
+	font-family: 'Raleway', sans-serif;
+
+}
+#topSection{
+
+	width:300px;
+	padding:15px;
+	border:2px solid #888;
+	border-radius:10px;
+	margin-bottom:10px;
+	background-color:#F0DC96;
+	float:left;
+
+}
+#heading{
+
+
+	margin-left:100px;
+	font-family: 'Cinzel', serif;
+
+
+}
+#benefits{
+
+
+	list-style:none;
+	font-family: 'Raleway', sans-serif;
+}
+#register{
+
+
+	width:500px;
+	background-color:#F0DC96;
+	margin: 0 auto;
+	margin-left:10px;
+	border-radius:10px;
+	padding:15px;
+	float:left;
+}
+legend{
+
+	font-family: 'Cinzel', serif;
+	color:#C91F23;
+	font-size:30px;
+}
+/*==== Results Page ====*/
+#wrapperThree{
+	
+	width:960px;
+	margin-top:20px;
+	background-color:green;
+  
+}
+aside{
+
+	width:400px;
+	background-color:red;
+	float:left;
+}
+#Results{
+
+	width:400px;
+	background-color:blue;
+	float:left;
+}
