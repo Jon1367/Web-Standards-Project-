@@ -21,7 +21,12 @@ body{
 	margin:0 auto;
 	margin-top:80px;
 	overflow:hidden;
+	border: 2px solid black;
 
+}
+select{
+
+	margin-bottom:15px;
 }
 .right{
 
@@ -53,6 +58,10 @@ header{
 	margin-left:8px;
 	padding:10px;
 	float:left;
+}
+.home a:hover{
+
+
 }
 .search{
 
@@ -92,10 +101,30 @@ nav li{
 }
 #searchSection{
 
-	width:600pc;
+	width:600px;
 	margin-left:200px;
 	float:left;
 
+}
+#bottomSection{
+
+	width:660px;
+	margin:0 auto;
+	margin-top: 20px;
+	background-color:blue;
+	overflow:hidden;
+}
+#lastestNews{
+
+	width:300px;
+	margin-top:10px;
+	background-color:green;
+}
+#top{
+
+	width:300px;
+	margin-top:10px;
+	background-color:green;
 }
 /*==== Form Page ====*/
 #wrappertwo{
