@@ -28,9 +28,6 @@ select{
 
 	margin-bottom:15px;
 }
-a{
-	text-decoration:none;
-}
 .right{
 
 	float:right;
@@ -53,8 +50,8 @@ header{
 }
 .home{
 
-	font-size:16px;
-	line-height:18px;
+	font-size:18px;
+	font-weight:100;
 	color:white;
 	margin-top:0px;
 	margin-bottom:0px;
@@ -64,9 +61,6 @@ header{
 }
 .home a:hover{
 
-
-	background-color:blue;
-	text-decoration:none;
 
 }
 .search{
@@ -115,26 +109,25 @@ nav li{
 }
 #bottomSection{
 
-	width:620px;
+	width:600px;
 	margin:0 auto;
+	background-color:blue;
 	overflow:hidden;
 }
 #lastestNews{
 
 	width:300px;
-	background-color:#E6BE6E;
+	background-color:green;
 }
 #top{
 
 	width:300px;
-	background-color:#E6BE6E;
-	border-left:2px solid black;
+	background-color:green;
 }
 .header{
 
 	width:100%;
-	border:2px solid black;
-	background-color:#F0DC96;
+	background-color:gray;
 }
 #gameBox li{
 
@@ -142,6 +135,7 @@ nav li{
 	display:inline-block;
 
 }
+
 .game{
 
 	width:100px;
