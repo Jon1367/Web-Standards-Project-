@@ -5,7 +5,7 @@
 	light brown : #F0DC96
 	dark brown: #E6BE6E
 	light blue:#A0D2BE
-	Dark blue: #778691
+	Dark blue:.
 	Red:      #C91F23
 
 */
@@ -17,9 +17,8 @@ body{
 }
 #wrapper{
 
-	width:980px;
-	margin:0 auto;
-	margin-top:80px;
+	width:100%;
+	margin-top:20px;
 	overflow:hidden;
 	border: 2px solid black;
 
@@ -47,7 +46,7 @@ a{
 header{
 
 	width:100%;
-	background-color:#C91F23;
+	background-color:#A33342;
 	overflow:hidden;
 	box-shadow:2px 2px 0px 2px #888;
 }
@@ -87,10 +86,18 @@ nav li{
 	display:inline-block;
 	float:right;
 }
-/*==== Main Search Page ====*/
-#Feature{
+/*==== Main Search Row 1 Page ====*/
+#rowOne
+{
+	width:100%;
+	height:400px;
+	background-color:#424242;
+	overflow:hidden;
+}
+#feature{
 
-	margin-left:150px;
+	width:650px;
+	margin:0 auto;
 }
 .logo{
 	
@@ -108,31 +115,40 @@ nav li{
 #searchSection{
 
 	width:600px;
-	margin-left:200px;
-	margin-bottom:20px;
-	float:left;
+	margin:0 auto;
 
+}
+.search{
+
+	width:400px;
+	height:30px;
+}
+/*==== Main Search  Row 2 Page ====*/
+#rowTwo{
+
+	width:100%;
+	margin-top:20px;
+	overflow:hidden;
+	background-color:#FBF7E4;
+	border:2px solid black;
 }
 #bottomSection{
 
-	width:620px;
+	width:800px;
 	margin:0 auto;
-	overflow:hidden;
 }
 #lastestNews{
 
 	width:300px;
-	background-color:#E6BE6E;
+
 }
 #top{
 
 	width:300px;
-	background-color:#E6BE6E;
 	border-left:2px solid black;
 }
 .header{
 
-	width:100%;
 	border:2px solid black;
 	background-color:#F0DC96;
 }
@@ -144,8 +160,8 @@ nav li{
 }
 .game{
 
-	width:100px;
-	height:50px;
+	width:50px;
+	height:80px;
 	background-color:white;
 	margin:10px;
 }
