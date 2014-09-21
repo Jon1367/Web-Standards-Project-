@@ -1,0 +1,296 @@
+/*====Style Sheet ====*/
+/*
+
+	lightest : #FAFABE
+	light brown : #F0DC96
+	dark brown: #E6BE6E
+	light blue:#A0D2BE
+	Dark blue:.
+	Red:      #C91F23
+
+*/
+body{
+
+	margin:0;
+	padding:0;
+
+}
+#wrapper{
+
+	width:100%;
+	overflow:hidden;
+
+}
+select{
+
+	margin-bottom:15px;
+}
+a{
+	text-decoration:none;
+}
+.right{
+
+	float:right;
+}
+.left{
+
+	float:left;
+}
+.clear{
+
+	clear:both;
+}
+input[type=text] {
+	padding:5px; border:2px solid #ccc; 
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+input[type=text]:focus {
+	border-color:#333; }
+
+input[type=submit] {
+
+	padding:5px 15px; 
+	background:#ccc; 
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; 
+}
+/*==== Header Section ====*/
+header{
+
+	width:100%;
+	background-color:#A33342;
+	overflow:hidden;
+	box-shadow:2px 2px 0px 2px #888;
+}
+footer{
+
+	width:100%;
+	margin-top:20px;
+	background-color:#A33342;
+	overflow:hidden;
+	box-shadow:2px 2px 0px 2px #888;
+}
+.info{
+
+	width:800px;
+	margin: 0 auto;
+}
+.home{
+
+	font-size:16px;
+	line-height:18px;
+	color:white;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:8px;
+	padding:10px;
+	float:left;
+}
+.home a:hover{
+
+
+	background-color:blue;
+	text-decoration:none;
+
+}
+#result{
+
+	list-style:none;
+	margin-left:20px;
+	margin-top:0pc;
+	margin-bottom:0px;
+	float:left;
+}
+nav li{
+
+	display:inline-block;
+	float:right;
+}
+/*==== Main Search Row 1 Page ====*/
+#rowOne
+{
+	width:100%;
+	height:400px;
+	background-color:#424242;
+	overflow:hidden;
+}
+#feature{
+
+	width:850px;
+	margin:0 auto;
+}
+.logo{
+	
+	margin-left:30px;
+
+}
+#title{
+
+	font-size:70px;
+	font-family: 'Cinzel', serif;
+	color:#A33342;
+	float:left;
+	margin-top:60px;
+}
+#searchSection{
+
+	width:600px;
+	margin:0 auto;
+
+}
+.search{
+
+	width:400px;
+	height:30px;
+}
+#searchBtn{
+
+	width:50px;
+	height:30px;
+	background-color:#981DCC;
+}
+/*==== Main Search  Row 2 Page ====*/
+#rowTwo{
+
+	width:100%;
+	margin-top:20px;
+	overflow:hidden;
+	background-color:#FBF7E4;
+	border:2px solid black;
+}
+#bottomSection{
+
+	width:800px;
+	margin:0 auto;
+}
+#lastestNews{
+
+	width:300px;
+	margin-right:50px;
+
+}
+#top{
+
+	width:300px;
+	border-left:2px solid black;
+}
+.header{
+
+	border:2px solid black;
+	background-color:#F0DC96;
+}
+#gameBox li{
+
+	
+	display:inline-block;
+
+}
+.game{
+
+	width:50px;
+	height:80px;
+	background-color:white;
+	margin:10px;
+}
+h2{
+
+	margin-top:0px;
+	padding:10px;
+}
+p{
+	padding:15px;
+}
+/*==== Form Page ====*/
+#wrappertwo{
+
+	width:960px;
+	margin:0 auto;
+	margin-top:20px;
+	
+}
+#formHeader{
+
+	width:100%;
+	background-color:#FAFABE;
+}
+#Sign{
+
+	font-family: 'Cinzel', serif;
+	font-size:30px;
+	margin-left:70px;
+	margin-top:0px;
+	letter-spacing:5px;
+	color:#C91F23;
+
+}
+#info{
+
+	margin:0 auto;
+	font-family: 'Raleway', sans-serif;
+
+}
+#topSection{
+
+	width:300px;
+	padding:15px;
+	border:2px solid #888;
+	border-radius:10px;
+	margin-bottom:10px;
+	background-color:#F0DC96;
+	float:left;
+
+}
+#heading{
+
+
+	margin-left:100px;
+	font-family: 'Cinzel', serif;
+
+
+}
+#benefits{
+
+
+	list-style:none;
+	font-family: 'Raleway', sans-serif;
+}
+#register{
+
+
+	width:500px;
+	background-color:#F0DC96;
+	margin: 0 auto;
+	margin-left:10px;
+	border-radius:10px;
+	padding:15px;
+	float:left;
+}
+legend{
+
+	font-family: 'Cinzel', serif;
+	color:#C91F23;
+	font-size:30px;
+}
+/*==== Results Page ====*/
+#wrapperThree{
+	
+	width:100%;
+	margin-top:20px;
+	background-color:green;
+  
+}
+aside{
+
+	width:400px;
+	background-color:#FAFABE;
+	float:left;
+}
+#Results{
+
+	width:800px;
+	background-color:#F0DC96;
+	float:left;
+}
