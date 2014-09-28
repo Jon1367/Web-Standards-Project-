@@ -13,6 +13,7 @@ body{
 
 	margin:0;
 	padding:0;
+	font-size:1em;
 
 }
 #wrapper{
@@ -60,7 +61,7 @@ input[type=text]:focus {
 input[type=submit] {
 
 	padding:5px 15px; 
-	background:#ccc; 
+	background:#C91F23; 
 	border:0 none;
 	cursor:pointer;
 	-webkit-border-radius: 5px;
@@ -90,7 +91,7 @@ footer{
 }
 .home{
 
-	font-size:10px;
+	font-size:0.625em;/*10px*/
 	width:80px;
 	height:50px;
 	margin-top:0px;
@@ -117,6 +118,55 @@ nav li{
 	display:inline-block;
 	float:right;
 }
+/*==== modal Section ====*/
+#back{
+
+	width:100%;
+	height:100%;
+	position:fixed;
+	background-color:rgba(0,0,0,.5);
+	display:none;
+	top:0;
+	left:0;
+	z-index:1000;
+}
+#modal{
+
+	width:500px;
+	height:300px;
+	overflow:hidden;
+	background-color:white;
+	position:relative;
+	display:none;
+	top:20%;
+	left:50%;
+	margin-left:-300px;
+	z-index:1001;
+	border-radius:10px;
+
+}
+#close{
+
+
+cursor:pointer;
+color:#C91F23;
+padding:5px;
+margin-top:2px;
+
+
+}
+input[name=Login]{
+
+	width:300px;
+	margin-left:60px;
+}
+div > h1{
+
+	margin-left:60px;
+	font-size:1em;/*16px*/
+	font-family: 'Cinzel', serif;
+	color:#C91F23
+}
 /*==== Main Search Row 1 Page ====*/
 #rowOne
 {
@@ -125,11 +175,6 @@ nav li{
 	background-color:#424242;
 	overflow:hidden;
 }
-#feature{
-
-	width:850px;
-	margin:0 auto;
-}
 .logo{
 	
 	margin-left:30px;
@@ -137,11 +182,12 @@ nav li{
 }
 #title{
 
-	font-size:70px;
+	font-size:4.375em;/*70px*/
 	font-family: 'Cinzel', serif;
-	color:#A33342;
+	color:#C91F23;
 	float:left;
 	margin-top:60px;
+	margin-left:320px;
 }
 #searchSection{
 
@@ -158,7 +204,7 @@ nav li{
 
 	width:50px;
 	height:30px;
-	background-color:#981DCC;
+	background-color:#C91F23;
 }
 /*==== Main Search  Row 2 Page ====*/
 #rowTwo{
@@ -227,7 +273,7 @@ p{
 #Sign{
 
 	font-family: 'Cinzel', serif;
-	font-size:30px;
+	font-size:1.875em;/*30px*/
 	margin-left:70px;
 	margin-top:0px;
 	letter-spacing:5px;
@@ -237,17 +283,19 @@ p{
 #info{
 
 	margin:0 auto;
+	font-size:1.000em;/*16px*/
 	font-family: 'Raleway', sans-serif;
 
 }
 #topSection{
 
 	width:300px;
+	height:500px;
 	padding:15px;
 	border:2px solid #888;
 	border-radius:10px;
 	margin-bottom:10px;
-	background-color:#F0DC96;
+	background-color:#424242;
 	float:left;
 
 }
@@ -269,18 +317,35 @@ p{
 
 
 	width:500px;
-	background-color:#F0DC96;
+	height:500px;
+	background-color:#424242;
 	margin: 0 auto;
 	margin-left:10px;
 	border-radius:10px;
 	padding:15px;
 	float:left;
 }
+label{
+
+	margin-top:15px;
+	margin-bottom:20px;
+}
+input{
+
+	margin-top:15px;
+	margin-bottom:20px;
+
+}
+label{
+	
+	color:#A33342;
+	margin-right:10px;
+}
 legend{
 
 	font-family: 'Cinzel', serif;
 	color:#C91F23;
-	font-size:30px;
+	font-size:30px;/**/
 }
 /*==== Results Page ====*/
 #wrapperThree{
@@ -293,12 +358,87 @@ legend{
 aside{
 
 	width:400px;
+	height:500px;
 	background-color:#FAFABE;
 	float:left;
 }
-#Results{
+#results{
 
-	width:800px;
-	background-color:#F0DC96;
+	width:900px;
+	height:500px;
+	background-color:#424242;
 	float:left;
+}
+#resultsHeader{
+
+	margin-left:320px;
+	font-family: 'Cinzel', serif;
+	color:#C91F23;
+}
+#filter{
+
+	margin-left:180px;
+	color:#C91F23;
+}
+/*==== media juery ====*/
+@media screen and (max-width:80em){                   /*========= media ==========*/
+
+#wrapper{
+
+	width:100%;
+	background-color:#26232E; 
+	margin:0 auto;
+
+}
+
+}
+
+@media screen and (max-width: 50em){
+
+#wrapper{
+
+	width:100%;
+	background-color:#272554; 
+	margin:0 auto;
+}
+#gallery{
+
+	width:65.9167%;/*700px*/
+	clear:both;
+
+}
+@media screen and (max-width:31.250em){
+
+#wrapper{
+
+	width:100%;
+	background-color:white; 
+	margin:0 auto;
+}
+
+a[href='form.html']{
+
+	margin-right:30px;
+}
+#title{
+
+	font-size:2.500em;/*40px*/
+	font-family: 'Cinzel', serif;
+	color:#C91F23;
+	margin-left:30px;
+
+}
+.logo{
+	
+	display:none;
+
+}
+select{
+
+	color:#C91F23;
+	border-radius:5px;
+	margin-top:20px;
+	width:80px;
+}
+
 }
