@@ -381,7 +381,8 @@ aside{
 	color:#C91F23;
 }
 /*==== media juery ====*/
-@media screen and (max-width:80em){                   /*========= media ==========*/
+
+@media screen and (max-width:80em){  /*========= smaller resoultion Deskstop ==========*/
 
 #wrapper{
 
@@ -393,7 +394,7 @@ aside{
 
 }
 
-@media screen and (max-width: 50em){
+@media screen and (max-width: 50em){/*==== ipad ====*/
 
 #wrapper{
 
@@ -407,7 +408,7 @@ aside{
 	clear:both;
 
 }
-@media screen and (max-width:31.250em){
+@media screen and (max-width:31.250em){ /*==== Phone ====*/
 
 #wrapper{
 
@@ -438,7 +439,21 @@ select{
 	color:#C91F23;
 	border-radius:5px;
 	margin-top:20px;
-	width:80px;
+	margin-left:5px;
+	width:70px;
+}
+.search{
+
+	width:200px;
+	height:30px;
+	margin-left:40px;
 }
 
+#top{
+
+	width:300px;
+	border-left:2px solid black;
+	clear:both;
+	margin-top:80px;
+}
 }
